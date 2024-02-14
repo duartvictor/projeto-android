@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:wght@300;700&family=Noto+Sans&family=Oswald&family=Ubuntu:wght@300&display=swap');
+
+:root {
+    --cor0: #29b965;
+    --cor1: #005825;
+    --cor2: #29b965;
+    --cor3: #16ff777a;
+
+}
+
+* {
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+header {
+    background: linear-gradient(180deg, var(--cor0) 25%, var(--cor1) 100%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    box-shadow: 0px 2px 5px #000000b4;
+}
+
+header > h1 {
+    padding-bottom: 20px;
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+    color: white;
+    text-shadow: 1.5px 1.5px #0000008f;
+}
+
+header > p {
+    padding-bottom: 10px;
+    color: white;
+    text-shadow: 1.2px 1.2px #0000008f;
+}
+
+#linebreak {
+    padding-bottom: 20px;
+    color: white;
+    text-shadow: 1.2px 1.2px #0000008f;
+}
+
+
+header > nav {
+    align-self: start;
+    margin: 0;
+}
+
+header > nav > a {
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    padding-right: 20px;
+    transition-duration: 0.3s;
+}
+
+header > nav > a:hover {
+    color: black;
+    font-weight: bold;
+    background-color: var(--cor0);
+    padding: 10px;
+    border-radius: 7px;
+    box-shadow: 0.5px 0.5px 3px #0000008f;
+}
+
+main {
+    background-color: var(--cor3);
+}
+
+#info {
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    width: 75%;
+    padding: 15px;
+    box-shadow: 0px 0px 8px #0000008f;
+}
+
+#info > h1 {
+    font-family: 'idroid';
+    font-size: 25px;
+    color: var(--cor1);
+    padding: 15px;
+}
+
+#info > h3 {
+    font-family: 'idroid';
+    color: var(--cor1);
+    background: linear-gradient(45deg, var(--cor3) 20%, #ffffff 85%);
+    margin: 15px;
+    padding-left: 5px;
+}
+
+#info > p {
+    padding-left: 15px;
+    padding-right: 15px;
+    text-indent: 1.5em;
+    line-height: 1.5em;
+}
+
+img {
+    display: block;
+    margin: 15px auto;
+}
+
+main img {
+    width: 100%;
+}
+
+.pequeno {
+    display: block;
+    max-width: 300px;
+}
+
+.video {
+    background-color: var(--cor1);
+    margin: 15px -15px 10px -15px;
+    padding: 15px;
+    padding-bottom: 56.5%;
+    position: relative;
+}
+
+.video > iframe {
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+
+
+}
+
+
+
+
+
+footer {
+    background-color: #005825;
+    text-align: center;
+    color: white;
+    padding: 7px;
+    margin: 0;
+}
+
+footer > p {
+    font-style: italic;
+    margin: 0;
+}
+
