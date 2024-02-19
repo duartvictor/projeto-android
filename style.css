@@ -1,5 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Comic+Neue:wght@300;700&family=Noto+Sans&family=Oswald&family=Ubuntu:wght@300&display=swap');
 
+
+@font-face {
+    font-family: 'idroid';
+    src: url('../fontes/idroid.otf') format('opentype');
+    font-weight: normal;
+}
+
 :root {
     --cor0: #29b965;
     --cor1: #005825;
