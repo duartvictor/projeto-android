@@ -38,16 +38,10 @@ header > h1 {
 
 header > p {
     padding-bottom: 10px;
+    text-align: center;
     color: white;
     text-shadow: 1.2px 1.2px #0000008f;
 }
-
-#linebreak {
-    padding-bottom: 20px;
-    color: white;
-    text-shadow: 1.2px 1.2px #0000008f;
-}
-
 
 header > nav {
     align-self: start;
